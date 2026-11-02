@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build duplicates excluded from delivery
+source/
+
+# Build artifacts
+SHA256SUMS.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

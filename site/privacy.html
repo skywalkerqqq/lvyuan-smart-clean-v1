@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060806" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>隐私政策 | 绿源智能</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --brand: #d3ff7c;
+        --ink: #060806;
+        --line: rgba(255, 255, 255, 0.1);
+        --muted: rgba(255, 255, 255, 0.58);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: var(--ink);
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(ellipse at 82% 4%, rgba(211, 255, 124, 0.1), transparent 38%),
+          radial-gradient(ellipse at 8% 95%, rgba(211, 255, 124, 0.045), transparent 36%),
+          var(--ink);
+        color: #fff;
+        font-family:
+          'Geist',
+          'Noto Sans SC',
+          'PingFang SC',
+          'Microsoft YaHei',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        width: min(100% - 40px, 800px);
+        margin: 0 auto;
+        padding: 40px 0 80px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+
+      .mark {
+        display: grid;
+        width: 36px;
+        height: 36px;
+        place-items: center;
+        border-radius: 11px;
+        background: var(--brand);
+        color: #080b07;
+        box-shadow: 0 0 26px rgba(211, 255, 124, 0.2);
+      }
+
+      .back {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      .back:hover {
+        color: var(--brand);
+      }
+
+      .eyebrow {
+        margin: 64px 0 0;
+        color: rgba(211, 255, 124, 0.65);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 12px 0 0;
+        font-size: clamp(32px, 6vw, 48px);
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        line-height: 1.15;
+      }
+
+      .updated {
+        margin: 14px 0 0;
+        color: rgba(255, 255, 255, 0.35);
+        font-size: 12px;
+      }
+
+      .intro {
+        margin: 30px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.85;
+      }
+
+      .content {
+        margin-top: 44px;
+        border-top: 1px solid var(--line);
+      }
+
+      section {
+        padding: 26px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      section p,
+      section li {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.9;
+      }
+
+      section p {
+        margin: 12px 0 0;
+      }
+
+      section ul {
+        margin: 12px 0 0;
+        padding-left: 18px;
+      }
+
+      li + li {
+        margin-top: 4px;
+      }
+
+      footer {
+        margin-top: 34px;
+        color: rgba(255, 255, 255, 0.32);
+        font-size: 11px;
+        line-height: 1.8;
+      }
+
+      strong {
+        color: rgba(255, 255, 255, 0.82);
+        font-weight: 500;
+      }
+
+      @media (max-width: 520px) {
+        .page {
+          width: min(100% - 32px, 800px);
+          padding-top: 24px;
+        }
+
+        .eyebrow {
+          margin-top: 46px;
+        }
+
+        .intro {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <div class="topbar">
+        <a class="brand" href="/" aria-label="返回绿源智能首页">
+          <span class="mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              width="19"
+              height="19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3.6 11.1 12 3.8l8.4 7.3" />
+              <path d="M5.8 9.7V20h12.4V9.7" />
+              <path d="M9.4 20v-5.6h5.2V20" />
+            </svg>
+          </span>
+          绿源智能
+        </a>
+        <a class="back" href="/">← 返回首页</a>
+      </div>
+
+      <p class="eyebrow">Privacy Policy</p>
+      <h1>隐私政策</h1>
+      <p class="updated">更新日期：2026 年 11 月 1 日 · 生效日期：2026 年 11 月 1 日</p>
+
+      <p class="intro">
+        绿源智能（以下称“我们”）重视你的隐私与个人信息安全。本政策说明我们在提供官网预约咨询服务时，如何收集、使用、存储和保护你的信息。请在使用相关服务前仔细阅读。
+      </p>
+
+      <div class="content">
+        <section>
+          <h2>1. 我们收集的信息</h2>
+          <p>
+            当你通过官网“预约体验”表单提交咨询时，我们可能会收集你主动填写的以下信息：称呼、手机号码、感兴趣的产品或方案，以及你同意接收联系的相关记录。
+          </p>
+          <p>我们不会要求你提供与咨询无关的敏感个人信息。</p>
+        </section>
+
+        <section>
+          <h2>2. 信息的使用目的</h2>
+          <ul>
+            <li>安排专属顾问与你联系，了解需求并提供全屋智能方案建议；</li>
+            <li>根据你选择的产品或方案，提供报价、勘测与安装等服务信息；</li>
+            <li>在征得你同意的前提下，发送与你咨询相关的服务通知；</li>
+            <li>履行法律法规规定的义务，或配合有权机关的合法要求。</li>
+          </ul>
+          <p>我们不会将你的个人信息用于与上述目的无关的用途。</p>
+        </section>
+
+        <section>
+          <h2>3. 信息的存储与保护</h2>
+          <p>
+            我们会将收集到的信息存储在中华人民共和国境内，并采取访问控制、传输加密、权限最小化等必要的安全措施，防止信息被未经授权地访问、泄露、篡改或丢失。
+          </p>
+          <p>
+            我们仅在实现本政策所述目的所必需的期限内保留你的信息，法律法规另有规定的除外。超出保留期限后，我们将删除或匿名化处理。
+          </p>
+        </section>
+
+        <section>
+          <h2>4. 信息的共享与披露</h2>
+          <p>
+            我们不会向任何第三方出售你的个人信息。为完成上门勘测、安装或售后服务，我们可能向经严格筛选的授权服务商提供必要信息，并要求其按照本政策及保密约定处理。
+          </p>
+          <p>除取得你的单独同意或法律法规要求外，我们不会对外披露你的个人信息。</p>
+        </section>
+
+        <section>
+          <h2>5. 你的权利</h2>
+          <p>
+            你有权查阅、复制、更正、补充或删除你的个人信息，也可以撤回同意、注销相关咨询记录。你可以通过官网预约表单或联系与你沟通的专属顾问提出请求。我们将在核实身份后依法及时处理。
+          </p>
+        </section>
+
+        <section>
+          <h2>6. 未成年人保护</h2>
+          <p>
+            我们的产品与服务面向成年人。若你为未满 18 周岁的未成年人，请在监护人陪同下阅读本政策并在取得监护人同意后使用相关服务。
+          </p>
+        </section>
+
+        <section>
+          <h2>7. 本政策的更新</h2>
+          <p>
+            我们可能根据业务变化或法律法规要求更新本政策。更新后的政策将在本页面公布，并标注新的更新日期。若更新涉及重大变化，我们会以显著方式提示你。
+          </p>
+        </section>
+      </div>
+
+      <footer>
+        绿源智能 · 全屋智能与安全守护系统<br />
+        本页面用于品牌官网演示，正式上线前请结合企业实际的数据处理流程与适用法律完成法务审核。
+      </footer>
+    </main>
+  </body>
+</html>
